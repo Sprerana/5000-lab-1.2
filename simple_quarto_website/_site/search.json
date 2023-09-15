@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\nData Science and Analytics\n\n\nTopics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics\n\n\n\nProbability\n\n\nBinomial Distribution: Models the number of successes in a fixed number of independent Bernoulli trials. Poisson Distribution: Models the number of events occurring in a fixed interval of time or space. Normal (Gaussian) Distribution: A continuous distribution with a bell-shaped curve, often used for modeling real-world data.\n\n\nComputer Vision\n\n\nSemantic Segmentation: Assigning a class label to every pixel in an image. Instance Segmentation: Not only labeling each pixel with a class but also distinguishing between different instances of the same class.\n\n\nimport matplotlib.pyplot as plt\n\n# Sample data\nx = [1, 2, 3, 4, 5]\ny = [10, 12, 5, 8, 9]\n\n# Create a figure and axis\nfig, ax = plt.subplots()\n\n# Plot the data\nax.plot(x, y, label='Sample Data', color='blue', linestyle='-', marker='o')\n\n# Add labels and title\nax.set_xlabel('X-axis')\nax.set_ylabel('Y-axis')\nax.set_title('Simple Line Plot')\n\n# Add a legend\nax.legend()\n\n# Display the plot\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBelow is a Markdown table\nInline math Latex equation\nEquation \\(x^2\\)"
+  },
+  {
+    "objectID": "index.html#non-inline-math",
+    "href": "index.html#non-inline-math",
+    "title": "simple_quarto_website",
+    "section": "Non Inline Math",
+    "text": "Non Inline Math\n\nBelow is Non-inline math latex equation\n\n[ _{a}^{b} f(x) , dx = F(b) - F(a) ]\n\nBelow are Two images\n\n \n\nOne embedded Video\n\n\n\n\n\n\nCaption for your video.\n\n\nHere is a footnote reference,1 and another.2\nThis paragraph won’t be part of the note, because it isn’t indented."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.\nSubsequent paragraphs are indented to show that they belong to the previous footnote.\n{ some.code }\nThe whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#first-slide",
+    "href": "slides/slides.html#first-slide",
+    "title": "Lab",
+    "section": "First slide",
+    "text": "First slide\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/slides.html#second-slide",
+    "href": "slides/slides.html#second-slide",
+    "title": "Lab",
+    "section": "second slide",
+    "text": "second slide"
+  },
+  {
+    "objectID": "slides/slides.html#third-slide",
+    "href": "slides/slides.html#third-slide",
+    "title": "Lab",
+    "section": "third slide",
+    "text": "third slide\n\nBelow are two citations from bib file\n\n(Smith 2010) (Einstein 1905)\n\n\n\n\n\n\n\nEinstein, Albert. 1905. “On the Electrodynamics of Moving Bodies.” Annalen Der Physik 17 (10): 891–921. https://doi.org/10.1002/andp.19053221004.\n\n\nSmith, John. 2010. “A Great Paper.” Journal of Quarto."
+  }
+]

@@ -1,0 +1,139 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+quarto:
+  mermaid:
+      enabled: true
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<header>
+    <h1>Data Science and Analytics</h1>
+      <p>Topics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics</p>
+</header>
+
+
+<h2>Table with two columns</h2>
+
+<div class="columns">
+  <div class="column">
+    This is the left column.
+    You can add any content here, such as text, images, or lists.
+  </div>
+  <div class="column">
+    This is the right column.
+    You can add different content here, such as code blocks or additional text.
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    
+  </div>
+</div>
+
+<h3>An Unordered HTML List</h3>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+ 
+
+<p>Below is a Markdown table</p>
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
+<p>Inline math Latex equation</p>
+ Equation $x^2$
+
+
+# Table of Contents
+
+1. [Introduction](#introduction)
+2. [Chapter 1: Getting Started](#chapter-1)
+3. [Chapter 2: Advanced Topics](#chapter-2)
+4. [Conclusion](#conclusion)
+
+# Introduction
+Lorem ipsum dolor sit amet...
+
+# Chapter 1: Getting Started
+Lorem ipsum dolor sit amet...
+
+# Chapter 2: Advanced Topics
+Lorem ipsum dolor sit amet...
+
+# Conclusion
+Lorem ipsum dolor sit amet...
+
+<p>Quote using ></p>
+> This is a multi-line
+> block quote in Quarto.
+> It can span across several lines.
+
+<p>Below is two citations from bib file</p>
+
+[@smith2010]
+[@einstein1905theory]
+
+<p>One mermaid diagram</p>
+```{mermaid}
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+    John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts <br/>prevail!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+
+## Non Inline Math
+<p>Below is Non-inline math latex equation</p>
+\[
+\int_{a}^{b} f(x) \, dx = F(b) - F(a)
+\]
+
+<p>Below are Two images</p>
+
+![Georgetown1](slides/images/georgetown1.png)
+![Georgetown2](slides/images/georgetown2.jpeg)
+
+<p>One embedded Video</p>
+<figure>
+  <video width="320" height="240" controls>
+    <source src="georgetown.mp4" type="video/mp4">
+  </video>
+  <figcaption>Caption for your video.</figcaption>
+</figure>
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+        { some.code }
+
+    The whole paragraph can be indented, or just the first
+    line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+This paragraph won't be part of the note, because it
+isn't indented.
+
+
+
