@@ -112,10 +112,12 @@ sequenceDiagram
 <p>One embedded Video</p>
 <figure>
   <video width="320" height="240" controls>
-    <source src="georgetown.mp4" type="video/mp4">
+    <source src="second.mp4" type="video/mp4">
   </video>
   <figcaption>Caption for your video.</figcaption>
 </figure>
+
+{{< video georgetown.mp4 >}} 
 
 Here is a footnote reference,[^1] and another.[^longnote]
 
